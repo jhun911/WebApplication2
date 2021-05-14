@@ -24,7 +24,7 @@ namespace WebApplication2.Controllers
                     ProductName = "Product " + x,
                     UnitPrice = random.Next(12, 500),
                     UnitsInStock = random.Next(12, 500),
-                    UnitsOnOrder = random.Next(12s, 500)
+                    UnitsOnOrder = random.Next(12, 500)
 
                 }).ToList();
             }
