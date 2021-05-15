@@ -22,9 +22,9 @@ namespace WebApplication2.Controllers
                     Discontinued = x % 2 == 1,
                     ProductID = x,
                     ProductName = "Product " + x,
-                    UnitPrice = random.Next(11, 500),
-                    UnitsInStock = random.Next(11, 500),
-                    UnitsOnOrder = random.Next(11, 500)
+                    UnitPrice = random.Next(21, 500),
+                    UnitsInStock = random.Next(21, 500),
+                    UnitsOnOrder = random.Next(21, 500)
 
                 }).ToList();
             }
