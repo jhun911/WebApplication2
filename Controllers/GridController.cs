@@ -22,6 +22,7 @@ namespace WebApplication2.Controllers
                     Discontinued = x % 2 == 1,
                     ProductID = x,
                     ProductName = "Product " + x,
+
                     UnitPrice = random.Next(12, 300),
                     UnitsInStock = random.Next(12, 300),
                     UnitsOnOrder = random.Next(12, 300)
